@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+#bg{
+    background-image:url(bg1.png);
+    height:600px;
+    width:600px;
+    border-radius:10px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    
+    
+}
+#hero{
+    background-image: url(hero1.png);
+    height:50px;
+    width:50px;
+    position: absolute;
+    top:500px;
+    left:250px;
+}
+
+  
+
+   #missiles{
+      height:600px;
+      width:600px;
+      position:absolute;
+    
+   }
+   .missile{
+       position:absolute;
+       height:16px;
+       width:10px;
+       background-image:url(missile1.png);
+   }
+  
+ .enemy{
+    position :absolute;
+     top:100px;
+     left:100px;
+     height:50px;
+     width: 50px;
+     background-image:url(enemy.png);
+    }
+#enemies{
+    height:600px;
+    width:600px;
+    position: absolute;
+}
+.container{
+    position: absolute;
+    left:820px;
+    top:100px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px 2px;
+    border-radius: 10px;
+    height:600px;
+    width:600px;
+    padding:30px;
+    background-color: rgb(20, 20, 20);
+}
+#question{
+    font-size: 60px;
+    font-family: "Montserrat",sans-serif;
+    font-weight: bolder;
+    padding:30px;
+    color:white;
+    
+}
+.btn-grid{
+    display:grid;
+    grid-template-columns: repeat(2,auto);
+    gap:20px;
+    padding:20px;
+    
+}
+.btn {
+    background-color:purple;
+    color:white;
+    padding:10px;
+    font-size:50px;
+    border-radius:10px;
+    font-family: "Montserrat",sans-serif;
+    font-weight: bold;
+
+   }
+.btn:hover{
+    color:black;
+    background-color:white;
+    transition: 1s ease;
+}
+#start{
+    background-color:yellowgreen;
+    color:black;
+    padding:10px;
+    font-size:50px;
+    border-radius:10px;
+    font-family: "Montserrat",sans-serif;
+    font-weight: bold;
+    
+    transition: transform 0.5s ease;
+}
+
+#next{
+    background-color:yellowgreen;
+    color:black;
+    padding:10px;
+    font-size:50px;
+    border-radius:10px;
+    font-family: "Montserrat",sans-serif;
+    font-weight: bold;
+
+    transition: transform 0.5s ease;
+}
+
+.controls{
+  padding:30px;
+  display: grid;
+  gap:20px;
+  grid-template-columns: repeat(2,auto);
+  align-items: center;
+  align-content: center;
+}
+.hide{
+    display:none;
+}
+.correct{
+    color:white;
+    font-size: 40px;
+    font-family: "Montserrat",sans-serif;
+}
